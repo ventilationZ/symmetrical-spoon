@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     if(age >=18){
         print("Welcome to the Club")
     }else {
-        print("Sorry we dont admit underage")
+        print("Sorry we don't admit underage")
     }
 
 

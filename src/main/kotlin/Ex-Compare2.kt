@@ -10,7 +10,13 @@ fun main(args: Array<String>) {
         print("You Got Grade C ")
     }
     else if(mrks >=50 ){
+        print("You Got Grade C- ")
+    }
+    else if(mrks >=40 ){
         print("You Got Grade D ")
+    }
+    else if(mrks >=30 ){
+        print("You Got Grade D- ")
     }
     else if(mrks >=0 ){
         print("You Got Grade E You have to repeat the exam")
