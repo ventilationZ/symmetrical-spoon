@@ -1,17 +1,21 @@
 fun main(args: Array<String>) {
-    var resulta = addFunction( 694, 106)
-    println(resulta)
-    var resultb = multiplyFunction(4, 500)
-    println(resultb)
-    var resultc = divideFunction(40, 800)
-    println(resultc)
+    addFunction( 694, 106)
+    multiplyFunction(4, 500)
+    divideFunction(40, 800)
+
 }
 fun addFunction(x: Int, w: Int): Int {
-    return (x + w)
+    var resulta = x + w
+    println(resulta)
+
 }
+
 fun multiplyFunction(y: Int, z: Int): Int {
-    return (y * z)
+    var resultb = y * z
+    println(resultb)
 }
+
 fun divideFunction(d: Int, c: Int): Int {
-    return (c / d)
+    var resultc =c / d
+    println(resultc)
 }
